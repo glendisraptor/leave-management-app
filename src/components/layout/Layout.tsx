@@ -24,6 +24,7 @@ export const Layout = ({ children }: LayoutProps) => {
         { name: 'Profile', href: '/profile', icon: User },
         { name: 'Request Leave', href: '/leave-request', icon: Calendar },
         { name: 'Leave Statistics', href: '/leave-statistics', icon: LayoutDashboard },
+        { name: 'Calender', href: '/calender', icon: LayoutDashboard },
         ...(isManager
             ? [
                 { name: 'Approve Requests', href: '/manager', icon: Users },

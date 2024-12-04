@@ -7,6 +7,7 @@ import { ManagerDashboard } from './components/features/ManagerDashboard';
 import { ProjectAssignment } from './components/features/ProjectAssignment';
 import { Button } from './components/ui/button';
 import { Layout } from './components/layout/Layout';
+import CalendarPage from './components/features/CalendarPage';
 
 const App = () => {
   const { instance } = useMsal();
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/leave-statistics" element={<LeaveStatistics />} />
             <Route path="/manager" element={<ManagerDashboard />} />
             <Route path="/projects" element={<ProjectAssignment />} />
+            <Route path="/calender" element={<CalendarPage />} />
             <Route path="/" element={<Navigate to="/profile" replace />} />
           </Routes>
         </Layout>
