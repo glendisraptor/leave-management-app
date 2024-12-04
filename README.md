@@ -12,7 +12,7 @@ This project is a **React** application built using **TailwindCSS** for styling,
 - [Leave Request Features](#leave-request-features)
 - [Project Structure](#project-structure)
 - [License](#license)
-- [Project Brief for the Leave Request Application](#project-brief)
+- [Project Brief for the Leave Request Application](#project-brief-for-the-leave-request-application)
 
 ## Prerequisites
 
